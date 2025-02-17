@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stats-collector"
+version = "0.8.0"
+description = "Statistics collector for displaying it in the console as a table"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE.txt"}
+keywords = []
+authors = [
+  { name = "Bogatyrev Aleksandr", email = "bogatirevas.dev@gmail.com" },
+]
+maintainers = [
+  { name = "Bogatyrev Aleksandr", email = "bogatirevas.dev@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Documentation = "https://github.com/BogatiterAS/py-stats-collector#readme"
+Issues = "https://github.com/BogatiterAS/py-stats-collector/issues"
+Source = "https://github.com/BogatiterAS/py-stats-collector"
